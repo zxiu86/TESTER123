@@ -6,7 +6,7 @@ module.exports = async (req, res) => {
 
     try {
         const { password } = req.body;
-        const MY_SECRET = "iraq2024"; // الباسورد اللي لازم سكريبت البايثون يكتشفه
+        const MY_SECRET = "ir4"; // الباسورد اللي لازم سكريبت البايثون يكتشفه
 
         if (password === MY_SECRET) {
             return res.status(200).json({ allowed: true });
